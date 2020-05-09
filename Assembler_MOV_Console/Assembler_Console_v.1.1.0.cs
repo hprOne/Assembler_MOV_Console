@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace Assembler_Console_App
 {
     class Program
     {
