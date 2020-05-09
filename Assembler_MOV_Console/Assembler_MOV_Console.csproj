@@ -3,6 +3,22 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>8086icon.ico</ApplicationIcon>
+    <Version>1.1.0</Version>
+    <Authors>Bartłomiej "hprOne" Łąka</Authors>
+    <Company>hprOne</Company>
+    <Product>Assembler MOV Console Simulator</Product>
+    <Copyright>Copyright © by hprOne 2020</Copyright>
+    <PackageIcon>8086icon.ico</PackageIcon>
+    <RepositoryUrl>https://github.com/hprOne/Assembler_MOV_Console</RepositoryUrl>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\8086icon.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
